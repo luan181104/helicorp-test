@@ -15,7 +15,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://your-domain.com"),
+  metadataBase: new URL("https://helicorp-test-luan.vercel.app/"),
   title: {
     default: "Soundwave — Premium Wireless Earbuds",
     template: "%s | Soundwave",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     title: "Soundwave — Premium Wireless Earbuds",
     description:
       "Studio-quality sound, 40-hour battery, Bluetooth 5.4. Engineered for those who demand more.",
-    url: "https://your-domain.com",
+    url: "https://helicorp-test-luan.vercel.app/",
     siteName: "Soundwave",
     images: [
       {
