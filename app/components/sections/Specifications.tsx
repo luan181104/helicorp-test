@@ -7,7 +7,7 @@ const easeOut = [0.16, 1, 0.3, 1] as const;
 
 export default function Specifications() {
   return (
-    <section className="bg-black px-6 py-28 text-white">
+    <section id="specifications" className="bg-black px-6 py-28 text-white">
       <div className="mx-auto max-w-6xl">
         <div className="mb-16 text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.3em] text-cyan-400">

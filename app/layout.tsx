@@ -15,8 +15,47 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Healthy Landing Page",
-  description: "Modern landing page",
+  metadataBase: new URL("https://your-domain.com"),
+  title: {
+    default: "Soundwave — Premium Wireless Earbuds",
+    template: "%s | Soundwave",
+  },
+  description:
+    "Experience studio-quality sound with 40-hour battery life, Bluetooth 5.4, and IP54 water resistance. Engineered for those who demand more.",
+  keywords: [
+    "wireless earbuds",
+    "bluetooth headphones",
+    "premium audio",
+    "noise cancelling earbuds",
+  ],
+  authors: [{ name: "Your Name" }],
+  openGraph: {
+    title: "Soundwave — Premium Wireless Earbuds",
+    description:
+      "Studio-quality sound, 40-hour battery, Bluetooth 5.4. Engineered for those who demand more.",
+    url: "https://your-domain.com",
+    siteName: "Soundwave",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Soundwave Earbuds",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Soundwave — Premium Wireless Earbuds",
+    description: "Studio-quality sound, 40-hour battery, Bluetooth 5.4.",
+    images: ["/og-image.jpg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({

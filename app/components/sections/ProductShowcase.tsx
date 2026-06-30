@@ -93,7 +93,7 @@ function ShowcaseRow({
 
 export default function ProductShowcase() {
   return (
-    <section className="relative mx-auto max-w-6xl overflow-hidden px-6 py-20">
+    <section id="product-showcase" className="relative mx-auto max-w-6xl overflow-hidden px-6 py-20">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
