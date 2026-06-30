@@ -18,6 +18,8 @@ export default function Home() {
       <Specifications />
       <Testimonials />
       <FAQ />
+      <Newsletter />
+      <Footer />
     </>
   );
 }
