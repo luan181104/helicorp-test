@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://helicorp-test-luan.vercel.app/sitemap.xml",
+    sitemap: "https://helicorp-test-vmluan.vercel.app/sitemap.xml",
   };
 }
